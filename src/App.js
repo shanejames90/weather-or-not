@@ -36,14 +36,6 @@ class App extends Component {
   render () {
     const { msgAlerts, user } = this.state
 
-    const homeJsx = (
-      <Fragment>
-        <h5>Welcome to:</h5>
-        <h5>#Weather or #Not</h5>
-        <p>click on enter a zip code to get started!</p>
-      </Fragment>
-    )
-
     return (
       <Fragment>
         <Header user={user} />
@@ -59,7 +51,6 @@ class App extends Component {
         ))}
         <main className="container">
           <Route path='/search' component={Search} />
-          {homeJsx}
         </main>
       </Fragment>
     )
