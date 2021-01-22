@@ -1,7 +1,7 @@
 let apiUrl
 const apiUrls = {
-  production: 'https://aqueous-atoll-85096.herokuapp.com',
-  development: 'http://localhost:4741'
+  production: 'https://api.openweathermap.org/data/2.5/forecast?units=imperial&appid=05ec2068db810b286efb4be98ee0bbf9&zip=',
+  development: 'https://api.openweathermap.org/data/2.5/forecast?units=imperial&appid=05ec2068db810b286efb4be98ee0bbf9&zip='
 }
 
 if (window.location.hostname === 'localhost') {
